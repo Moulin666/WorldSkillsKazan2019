@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES3",
+    "module": "amd",
+    "jsx": "react",
+    "lib": ["esnext","dom"],
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "outFile": "./build/main.js",
+    "experimentalDecorators":true,
+    "emitDecoratorMetadata": true,
+    "rootDir": "./src/",
+    "sourceMap": false
+  }
+}
